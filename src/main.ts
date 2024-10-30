@@ -10,6 +10,8 @@ import {getNodejsDistribution} from './distributions/installer-factory';
 import {getNodeVersionFromFile, printEnvDetailsAndSetOutput} from './util';
 import {State} from './constants';
 
+console.log('foo');
+
 export async function run() {
   try {
     //
